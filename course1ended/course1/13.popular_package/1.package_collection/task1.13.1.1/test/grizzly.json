@@ -1,0 +1,19 @@
+{
+  "collections": [
+    {
+      "name": "user",
+      "types": {
+        "id": "int",
+        "name": "string",
+        "nickname": "string",
+        "age": "int"
+      }
+    },
+    {
+      "name": "city",
+      "types": {
+        "cityId": "int"
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  group_server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: servak
+    container_name: serv_cont
+    ports:
+      - "3000:3000"

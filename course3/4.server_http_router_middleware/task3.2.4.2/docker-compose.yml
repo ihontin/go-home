@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  log_server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: imag_serv
+    container_name: cont_serv
+    ports:
+      - "8080:8080"

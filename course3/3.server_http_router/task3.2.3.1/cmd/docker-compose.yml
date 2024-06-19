@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  serves:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: servak
+    container_name: ser_cont
+    ports:
+      - "8080:8080"
